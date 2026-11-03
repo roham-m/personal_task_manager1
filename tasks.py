@@ -14,4 +14,4 @@ def save_tasks(tasks):
 
 def show_tasks(tasks):
     for task in tasks:
-        print(task["name"], "-" , task["priority"])
+        print(task["name"], "- priority: " , task["priority"])
