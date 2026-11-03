@@ -1,3 +1,4 @@
+
 import json
 
 def load_tasks():
@@ -7,10 +8,10 @@ def load_tasks():
     except (FileNotFoundError, json.JSONDecodeError):
         return []
 
+def save_tasks(tasks):
+    with open("tasks.json", "w") as file:
+        json.dump(tasks, file, indent=2)
+
 def show_tasks(tasks):
     for task in tasks:
         print(task)
-
-def save_tasks(tasks):
-    with open("tasks.json", "w", indent = 2) as file:
-        json.dump(tasks, file)
