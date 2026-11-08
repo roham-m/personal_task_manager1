@@ -1,14 +1,20 @@
 # Personal Task Manager
 ![Static Badge](https://img.shields.io/badge/python-blue?logo=python&logoColor=white)
 
-A simple task manager built with python
+A simple task manager built with Python
 
 ## Features
 - add multiple tasks
 - save tasks
 - load saved task 
 - admin mode 
+- set tasks priority
 
+## task priority
+each task can have one of theese priority levels:
+- low
+- medium
+- high
 
 ## requirment 
 - python
@@ -51,7 +57,7 @@ run the main file:
 python main.py
 ```
 ## screenshot
-![personal_task_manager_screenshot](screenshot.png)
+![personal_task_manager_screenshot](ss.png)
 
 ## demo
 ![personal_task_manager_screenshot](screenshot.png)
