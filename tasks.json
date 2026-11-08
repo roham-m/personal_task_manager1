@@ -1,4 +1,10 @@
 [
-  "clean the home ",
-  "read a book"
+  {
+    "name": "clean the home",
+    "priority": "medium"
+  },
+  {
+    "name": "do the home work",
+    "priority": "high"
+  }
 ]
